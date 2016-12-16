@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Wire</title>
+    <title><%= yield(:title) %> | WIRE</title>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'default', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'default', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'aplication', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'aplication', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
